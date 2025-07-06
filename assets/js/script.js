@@ -56,7 +56,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Kumar Gowda";
+            document.title = "Portfolio | Keerthi Raj";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -66,7 +66,7 @@ document.addEventListener('visibilitychange',
     });
 
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "Java development"],
+    strings: ["frontend development", "backend development", "web designing", "C++ development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
